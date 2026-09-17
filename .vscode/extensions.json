@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "vitest.explorer",
+    "ms-playwright.playwright",
+    "bradlc.vscode-tailwindcss",
+    "eamodio.gitlens",
+    "christian-kohler.path-intellisense",
+    "redhat.vscode-yaml",
+    "mikestead.dotenv",
+    "github.vscode-github-actions"
+  ]
+}

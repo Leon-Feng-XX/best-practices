@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+.pnp.*
+
+# Build Output
+/dist/
+/dist-ssr/
+*.tsbuildinfo
+node_modules/.tmp/
+
+# Test Coverage & Cache
+/coverage/
+.vitest/
+
+# Tooling Cache
+.eslintcache
+
+# Playwright Artifacts
+/playwright-report/
+/test-results/
+/blob-report/
+/playwright/.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-error.log*
+
+# Environment Variables
+.env.local
+.env.*.local
+*.local
+
+# Editors / IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+*.code-workspace
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+*.suo
+*.sw?
+
+# MUST be committed (do NOT ignore)
+# pnpm-lock.yaml
+# src/types/auto-imports.d.ts
+# src/types/components.d.ts

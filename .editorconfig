@@ -1,0 +1,30 @@
+# EditorConfig: https://EditorConfig.org
+# Project root — stop searching for parent .editorconfig files.
+root = true
+
+# Default for ALL files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+# Markdown — keep trailing spaces (hard line break in CommonMark)
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
+# Makefile — tabs are mandatory (syntax requirement)
+[Makefile]
+indent_style = tab
+
+# Windows scripts — CRLF required by cmd.exe
+[*.{bat,cmd,ps1}]
+end_of_line = crlf
+
+# Generated lockfile — pnpm controls its format
+[pnpm-lock.yaml]
+insert_final_newline = false

@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Element Plus — Brand Color Override
+   Maps Element Plus CSS variables to our design tokens.
+   Change theme.css to rebrand Element Plus globally.
+   ========================================================================== */
+
+:root {
+  --el-color-primary: var(--color-primary-500);
+  --el-color-primary-light-3: var(--color-primary-400);
+  --el-color-primary-light-5: var(--color-primary-300);
+  --el-color-primary-light-7: var(--color-primary-200);
+  --el-color-primary-light-8: var(--color-primary-100);
+  --el-color-primary-light-9: var(--color-primary-50);
+  --el-color-primary-dark-2: var(--color-primary-600);
+
+  --el-color-success: var(--color-success);
+  --el-color-warning: var(--color-warning);
+  --el-color-danger: var(--color-danger);
+  --el-color-error: var(--color-danger);
+
+  --el-border-radius-base: var(--radius-md);
+  --el-font-family: var(--font-sans);
+}

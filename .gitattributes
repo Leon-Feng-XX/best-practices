@@ -1,0 +1,26 @@
+# Auto-detect text files and normalize to LF in the repository.
+* text=auto eol=lf
+
+# Windows scripts — CRLF required by cmd.exe
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Unix scripts — LF required by bash/zsh
+*.sh text eol=lf
+
+# Binary files — never touch
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.avif binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.pdf binary
+*.zip binary
+*.gz binary

@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Link Component
+   ========================================================================== */
+
+@layer components {
+  .link {
+    color: var(--color-primary-600);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--ease-default);
+  }
+
+  .link:hover {
+    color: var(--color-primary-700);
+    text-decoration: underline;
+  }
+
+  .link--underline {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .link--muted {
+    color: var(--color-muted-foreground);
+  }
+
+  .link--muted:hover {
+    color: var(--color-foreground);
+  }
+}

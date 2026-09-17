@@ -1,0 +1,10 @@
+# pnpm settings (pnpm 10+)
+# Single-package now; extend to monorepo by changing `packages` only.
+
+packages:
+  - .
+
+# pnpm 10+ blocks all dependency build scripts by default (supply-chain protection).
+# These MUST be allowed or the corresponding package won't work.
+onlyBuiltDependencies:
+  - vue-demi

@@ -1,0 +1,12 @@
+/* ==========================================================================
+   Main Entry
+   The ONLY file imported by the application (src/main.ts).
+   Order matters: tokens → base → components → utilities → overrides.
+   ========================================================================== */
+
+@import 'tailwindcss';
+@import './theme.css';
+@import './base.css';
+@import './components/index.css';
+@import './utilities/index.css';
+@import './element-plus.css';
